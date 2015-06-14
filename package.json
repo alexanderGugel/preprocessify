@@ -1,0 +1,34 @@
+{
+  "name": "preprocessorify",
+  "version": "0.0.1",
+  "description": "Conditional compilation for browserify.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "example": "browserify -t ./index.js example.js"
+  },
+  "author": "Alexander Gugel <alexander.gugel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "static-module": "^1.1.2"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "tape": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderGugel/preprocessorify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexanderGugel/preprocessorify/issues"
+  },
+  "homepage": "https://github.com/alexanderGugel/preprocessorify#readme",
+  "keywords": [
+    "bundle",
+    "preprocess",
+    "preprocessor",
+    "browserify-transform",
+    "browserify"
+  ]
+}
